@@ -1,0 +1,52 @@
+.about-page-wrapper {
+  min-height: 100vh;
+  background: #f7f8fa;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+}
+
+.about-content {
+  max-width: 900px;
+  margin: 40px auto 0 auto;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+  padding: 40px 32px 32px 32px;
+}
+
+.about-section {
+  margin-bottom: 40px;
+}
+
+.about-section h2 {
+  color: #485c11;
+  font-size: 2rem;
+  margin-bottom: 18px;
+  font-weight: 700;
+}
+
+.about-steps {
+  padding-left: 24px;
+  color: #333;
+  font-size: 1.08rem;
+  line-height: 1.7;
+}
+
+.about-steps li {
+  margin-bottom: 12px;
+}
+
+.about-section p {
+  color: #444;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .about-content {
+    padding: 18px 6px;
+  }
+  .about-section h2 {
+    font-size: 1.2rem;
+  }
+}

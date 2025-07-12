@@ -1,0 +1,113 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #dae3dc;
+  position: relative; 
+  font-family: "DM Sans:Medium", sans-serif;
+}
+.wrapper{
+  max-width: 80%;
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display:flex;
+  flex-direction: column;
+}
+.content-1{
+  text-align: center; 
+  margin-bottom: 40px;
+  background: linear-gradient(135deg, #485c11, #6b7c2a);
+  color: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+.title-1{
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3)
+}
+.small-description{
+  font-size: 1.2rem;
+  opacity: 0.9;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+.content-2{
+  background: white;
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+.title-2{
+  color: #485c11;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom:30px;
+  text-align: center;
+}
+.stepdata{
+  display:grid;
+  gap: 24px;
+}
+.step-wrapper{
+  display: flex; 
+  align-items: flex-start; 
+  gap: 20px;
+  padding: 20px;
+  background: #f8faf9;
+  border-radius: 12px;
+  border: 1px solid #e5ede6;
+}
+.step-title{
+  font-size: 20px;
+}
+.step-nr{
+  background: #485c11;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+  flex-shrink: 0
+}
+.step-description{
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+.step-details{
+  color: #777;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  font-style: italic;
+}
+.right-wrapper{
+  flex: 1;
+}
+.button-wrapper{
+  text-align: center;
+}
+.button{
+  background: linear-gradient(135deg, #485c11, #6b7c2a);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 18px 40px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  boxShadow: 0 6px 20px rgba(72, 92, 17, 0.3);
+  transition: all 0.3s ease;
+  transform: translateY(0);
+}

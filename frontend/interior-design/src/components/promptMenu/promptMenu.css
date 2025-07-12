@@ -1,0 +1,202 @@
+.prompt-menu-container {
+  max-width: 64rem;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #eff6ff 0%, #ede9fe 100%);
+}
+
+.prompt-menu-card {
+  background: #fff;
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.08);
+  padding: 2rem;
+}
+
+.prompt-menu-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.prompt-menu-h1 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.prompt-menu-subtitle {
+  color: #4b5563;
+  text-align: center;
+}
+
+.prompt-menu-section {
+  margin-bottom: 2rem;
+}
+
+.prompt-menu-section-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--dark-green);
+}
+
+.prompt-menu-live-preview{
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc; 
+  background: #f8fafc;
+  color: #333;
+}
+.prompt-menu-grid {
+  display: grid;
+  gap: 0.75rem;
+}
+.prompt-menu-grid-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.prompt-menu-grid-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.prompt-menu-grid-5 {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+.prompt-menu-grid-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.prompt-menu-btn {
+  padding: 1rem;
+  border-radius: 0.75rem;
+  border-width: 2px;
+  text-align: left;
+  transition: all 0.2s;
+  font-weight: 500;
+  color: #1f2937;
+  background: #fff;
+  border-color: #e5e7eb;
+}
+.prompt-menu-btn.selected-style {
+  border-color: #485c11;
+  background: #f0f7f0;
+  box-shadow: 0 4px 12px rgba(72,92,17,0.3);
+}
+.prompt-menu-btn.selected-mood {
+  border-color: #485c11;
+  background: #f0f7f0;
+  box-shadow: 0 4px 12px rgba(72,92,17,0.3);
+}
+.prompt-menu-btn.selected-light {
+  border-color: #485c11;
+  background: #f0f7f0;
+  box-shadow: 0 4px 12px rgba(72,92,17,0.3);
+}
+.prompt-menu-btn.selected-color {
+  border-color: #485c11;
+  background: #f0f7f0;
+  box-shadow: 0 4px 12px rgba(72,92,17,0.3);
+}
+.prompt-menu-btn.selected-texture {
+  border-color: #485c11;
+  background: #f0f7f0;
+  box-shadow: 0 4px 12px rgba(72,92,17,0.3);
+}
+.prompt-menu-btn:hover {
+  border-color: #485c11;
+  background: #f0f7f0;
+}
+
+.prompt-menu-textarea {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  border-width: 2px;
+  border-color: #e5e7eb;
+  outline: none;
+  resize: none;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+.prompt-menu-textarea:focus {
+  border-color: #485c11;
+}
+
+.prompt-menu-actions {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.prompt-menu-generate {
+  flex: 1;
+  background: #485c11;
+  /* background: linear-gradient(90deg, var(--green) 0%, var(--dark-green) 100%); */
+  color: #fff;
+  padding: 1rem 1.5rem;
+  border-radius: 0.75rem;
+  font-weight: 600;
+  font-size: 1rem;
+  border: none;
+  box-shadow: 0 2px 8px rgba(59,130,246,0.08);
+  transition: background 0.2s, box-shadow 0.2s;
+}
+.prompt-menu-generate:hover {
+  /* background: linear-gradient(90deg, #7c3aed 0%, #1d4ed8 100%); */
+  background: var(--green);
+}
+.prompt-menu-reset {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem 1.5rem;
+  border-radius: 0.75rem;
+  border: 2px solid #d1d5db;
+  background: #fff;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #374151;
+  transition: border-color 0.2s;
+}
+.prompt-menu-reset:hover {
+  border-color: #9ca3af;
+}
+
+.prompt-menu-promptbox {
+  background: #f9fafb;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  border: 2px solid #e5e7eb;
+}
+.prompt-menu-promptbox-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 1rem;
+}
+.prompt-menu-copy {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: #22c55e;
+  color: #fff;
+  border-radius: 0.5rem;
+  border: none;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: background 0.2s;
+}
+.prompt-menu-copy:hover {
+  background: #16a34a;
+}
+.prompt-menu-tip {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: #64748b;
+}

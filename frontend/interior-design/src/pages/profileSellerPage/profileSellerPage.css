@@ -1,0 +1,30 @@
+.left-side{
+    background-color: var(--white);
+}
+.back-to-prev-btn-product-page{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background: #485c11;
+    border: 2px solid #485c11;
+    max-width: 200px;
+    border-radius: 10px;
+    padding: 8px 16px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+    font-family: "DM Sans:Medium", sans-serif;
+    color: white;
+}
+.profile-actions-section{
+}
+.products-section{
+    display:flex;
+    justify-content:center;
+    width: 60%;
+}
+.products-sections-wrapper{
+    display:flex;
+    width: 100%;
+    justify-content:center;
+}

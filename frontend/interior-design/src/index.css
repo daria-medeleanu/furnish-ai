@@ -1,0 +1,27 @@
+:root{
+  --white: #fcfff6;
+  --greenish: #dde5b6;
+  --green: #adc178;
+  --dark-green: #386641;
+  --brownish: #a98467;
+  --brown: #6c584c;
+  --white-new: #fcfff6;
+}
+
+#root {
+  margin: 0 auto;
+  width: 100%;
+  background-color: var(--white);
+}
+
+@theme{
+  --color-pink: #646cff;
+}
+html{
+  background-color: #dae3dc;
+}
+
+
+body {
+  margin: 0;
+}
